@@ -10,8 +10,8 @@ st.markdown("Select a country to view the chart of total energy generation,\
         The SMAPE metric helps us estimate the accuracy of the forecast (lower is better). \
         Try adjusting the settings to lower the SMAPE value and get better results.\
         The following project was made by Drumil Joshi [LinkedIn](https://www.linkedin.com/in/drumil-joshi-00636716a/)\
-        Fawzan Sayed [LinkedIn](https://www.linkedin.com/in/fawzan-sayed-08aa4914b/)\
-        Jai Beri [LinkedIn](https://www.linkedin.com/in/jaiberi/)")
+        \Fawzan Sayed [LinkedIn](https://www.linkedin.com/in/fawzan-sayed-08aa4914b/)\
+        \Jai Beri [LinkedIn](https://www.linkedin.com/in/jaiberi/)")
 
 country = st.sidebar.selectbox(label = "Select a Country", index = 9,
                                options = list(COUNTRY_MAPPINGS.keys()))
